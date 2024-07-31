@@ -2,11 +2,8 @@ const axios = require("axios");
 
 class TelegramBot {
   constructor(token, chat_id) {
-    this.token = "670739890:WzvRKSIFCOuJUbXdsfvfdgdtv8kKHwCMORVhlZTsynjHT8xU"; // جایگزین کنید با توکن بات خود
-
-    this.chat_id = "288504037"; // آیدی چت یا یوزرنیم کانال/گروه
-    this.url = `https://tapi.bale.ai/bot${this.token}/sendMessage`; // آدرس API
-  }
+ 
+   }
 
   async sendMessage(text, retries = 3) {
     const params = {
